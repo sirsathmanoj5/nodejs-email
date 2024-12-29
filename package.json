@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-email",
+  "version": "1.0.0",
+  "description": "Sending emails",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirsathmanoj5/nodejs-email.git"
+  },
+  "author": "Manoj Sirsath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirsathmanoj5/nodejs-email/issues"
+  },
+  "homepage": "https://github.com/sirsathmanoj5/nodejs-email#readme",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.2"
+  }
+}
